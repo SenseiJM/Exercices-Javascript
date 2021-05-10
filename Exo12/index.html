@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Panier d'achats</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link href="scripts/script.js">
+    </head>
+    <body>
+<!-- Non terminé -->
+        <div id="catalogue">
+            <h1>Catalogue</h1>
+            <table>
+                <tbody>
+                    <tr id="chaise">
+                        <td>Chaise</td>
+                        <td>25</td>
+                        <td><input id="bouton-chaise" type="button" value="Ajouter au panier"></td>
+                    </tr>
+                    <tr id="table">
+                        <td>Table</td>
+                        <td>150</td>
+                        <td><input type="button" value="Ajouter au panier"></td>
+                    </tr>
+                    <tr id="meuble-tv">
+                        <td>Meuble TV</td>
+                        <td>250</td>
+                        <td><input type="button" value="Ajouter au panier"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="panier">
+            <h1>Mon Panier</h1>
+            <table>
+                <tbody id="liste-panier"></tbody>
+            </table>
+
+            <label for="total">Prix Total : </label>
+            <input id="total" name="total" type="text" readonly>
+        </div>
+
+    </body>
+</html>
