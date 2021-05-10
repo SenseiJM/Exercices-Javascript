@@ -1,10 +1,10 @@
 const start = function() {
     
     let button = document.getElementById("add-element");
-    button.addEventListener("click", ajouterElement);
+    button.addEventListener("click", add);
 }
 
-function ajouterElement() {
+const add = function addElement() {
     nbElements++;
     let elementList = document.getElementById("list-elements");
     
