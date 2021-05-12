@@ -1,0 +1,153 @@
+@font-face {
+    font-family: ubuntuRegular;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+body {
+    font-family: ubuntuRegular;
+    background-color: #FFF;
+    width: 900px;
+    margin: 10px auto;
+    color: #46464E;
+}
+
+header article {
+    width: 33%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+li {
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #C0BF5F;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    margin: 0 0;
+    background-color: #B5B6BA;
+    box-shadow: 5px 5px 5px rgba(70, 70, 78, 0.25);
+    border-radius: 5px;
+    border: 2px solid #46464E;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 60%;
+}
+
+td:first-child {
+    width: 85px;
+}
+
+td:nth-child(2n+1) {
+    text-align: center;
+}
+
+td {
+    border: 1px solid #46464E;
+    border-spacing: 0;
+}
+
+td ul li:nth-child(2n+1) {
+    font-weight: bold;
+}
+
+td ul li:nth-child(3n) {
+    font-style: italic;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #46464E;
+}
+
+input:nth-child(2n) {
+    margin-left: 40px;
+}
+
+aside {
+   width: 300px;
+   position: relative;
+}
+
+aside input[type="text"] {
+    width: 300px;
+}
+
+aside textarea {
+    width: 300px;
+    height: 100px;
+    resize: none;
+    font-family: "MS Shell Dlg 2";
+    border-radius: 5px;
+    border: 1px solid #46464E;
+}
+
+label {
+    color: #46464E;
+}
+
+#informations-personnelles {
+    font-size: 85%;
+}
+
+#intitule-profession {
+    font-size: 120%;
+    text-decoration: underline;
+}
+
+#competences article {
+    width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#experiences input {
+    margin: 0 auto;
+}
+
+#experiences aside {
+    left: 600px;
+    top: -255px;
+    margin-bottom: -275px;
+}
+
+#formations input {
+    margin: 0 auto;
+}
+
+#formations aside {
+    margin-bottom: -150px;
+    left: 600px;
+    top: -505px;
+}
+
+#hobbies input {
+    margin-left: 0;
+}
+
+#hobbies input:first-of-type {
+    margin-left: 40px;
+}
+
+#informations-personnelles ul,
+#experiences ul,
+#formations ul,
+#hobbies ul {
+    list-style-type: none;
+}
